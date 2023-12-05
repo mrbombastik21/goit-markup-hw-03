@@ -9,7 +9,7 @@ li {
 }
 
 .conteiner {
- max-width: 1158px;
+  width: 1158px;
   margin: 0 auto;
   padding: 0 15px 0 15px;
 }
@@ -17,9 +17,10 @@ li {
 /* Header */
 
 .header {
- display: flex;
- align-items: center;
- justify-content: space-between;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #e7e9fc;
 }
 
 .logo-span-header {
@@ -178,6 +179,10 @@ li {
   gap: 24px;
 }
 
+.list{
+  width: calc((100% - 72px) / 4);
+}
+
 .main-caption {
   font-weight: 500;
   font-size: 20px;
@@ -201,7 +206,7 @@ li {
 }
 
 .title-team {
-  padding-bottom: 72px;
+  margin-bottom: 72px;
 }
 
 .container {
@@ -216,12 +221,13 @@ li {
 .list-row {
   display: flex;
   gap: 24;
+  border-radius: 0px 0px 4px 4px;
 }
 .list {
   width: calc((100% - 72px) / 4);
 }
 
-.row-div{
+.row-div {
   padding: 32px 0;
 }
 
@@ -230,7 +236,7 @@ li {
   margin-bottom: 8px;
 }
 
-.feature-text{
+.feature-text {
   text-align: center;
 }
 
@@ -263,11 +269,11 @@ li {
   row-gap: 48px;
 }
 
-.portfolio-li{
+.portfolio-li {
   width: calc((100% - 48px) / 3);
 }
 
-.portfolio-div{
+.portfolio-div {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
@@ -288,6 +294,7 @@ li {
 
 .footer {
   background-color: #2e2f42;
+  padding: 100px 0;
 }
 
 .footer-link {
@@ -298,4 +305,6 @@ li {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  display: inline-block;
+  margin-bottom: 16px;
 }
