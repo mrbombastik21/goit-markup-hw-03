@@ -240,6 +240,8 @@ div-box{
   letter-spacing: 0.02em;
   color: #434455;
   flex-direction: column;
+  width: 264px;
+  height: 72px;
 }
 
 /* Heading */
