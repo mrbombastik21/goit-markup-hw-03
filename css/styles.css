@@ -15,10 +15,15 @@ body {
   flex-direction: column;
 }
 
+main{
+  flex-grow: 1;
+}
+
 h1,
 h2,
 h3{
   margin: 0;
+  font-family: 'Raleway' sans-serif;
 }
 
 p{
@@ -258,7 +263,7 @@ div-box{
 
 .list-row {
   display: flex;
-  gap: 24;
+  gap: 24px;
 }
 
 .list {
