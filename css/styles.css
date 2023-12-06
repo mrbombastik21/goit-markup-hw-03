@@ -8,11 +8,10 @@ li {
   list-style: none;
 }
 
-.conteiner {
-  width: 1158px;
-  margin: 0 auto;
-  padding: 0 15px 0 15px;
+img{
+  display: block;
 }
+
 
 /* Header */
 
@@ -21,6 +20,12 @@ li {
   align-items: center;
   justify-content: space-between;
   border-bottom: 1px solid #e7e9fc;
+}
+
+.conteiner {
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px 0 15px;
 }
 
 .logo-span-header {
@@ -189,6 +194,7 @@ li {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 
 .feature-text {
@@ -221,10 +227,11 @@ li {
 .list-row {
   display: flex;
   gap: 24;
-  border-radius: 0px 0px 4px 4px;
 }
+
 .list {
   width: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
 }
 
 .row-div {
