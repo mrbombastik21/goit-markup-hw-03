@@ -2,6 +2,27 @@ body {
   font-family: 'Roboto', sans-serif;
   color: #434455;
   background-color: #ffffff;
+  font-size: 14px;
+  line-height: 1.5;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+h1,
+h2,
+h3{
+  margin: 0;
+}
+
+p{
+  margin: 0;
+}
+
+ul{
+margin: 0;
+padding: 0;
+list-style-type: none;
 }
 
 li {
@@ -12,6 +33,11 @@ img{
   display: block;
 }
 
+.conteiner {
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px 0 15px;
+}
 
 /* Header */
 
@@ -22,11 +48,6 @@ img{
   border-bottom: 1px solid #e7e9fc;
 }
 
-.conteiner {
-  width: 1158px;
-  margin: 0 auto;
-  padding: 0 15px 0 15px;
-}
 
 .logo-span-header {
   color: #2e2f42;
