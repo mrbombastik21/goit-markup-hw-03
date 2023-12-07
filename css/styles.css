@@ -51,7 +51,7 @@ div-box{
   display: flex;
 }
 
-.conteiner {
+.container {
   width: 1158px;
   margin: 0 auto;
   padding: 0 15px 0 15px;
@@ -145,10 +145,7 @@ div-box{
   padding: 188px 0;
 }
 
-.container {
-  width: 496px;
-  margin: 0 auto;
-}
+
 
 .hero-title {
   font-size: 56px;
@@ -208,13 +205,7 @@ div-box{
   overflow: hidden;
 }
 
-.container {
-  display: flex;
-  width: 264px;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 8px;
-}
+
 
 .text-row {
   display: flex;
@@ -254,14 +245,7 @@ div-box{
   margin-bottom: 72px;
 }
 
-.container {
-  display: inline-flex;
-  padding-bottom: 32px;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 32px;
-}
+
 
 .list-row {
   display: flex;
@@ -292,17 +276,7 @@ div-box{
   padding: 120px 0;
 }
 
-.container {
-  display: flex;
-  width: 360px;
-  height: 420px;
-  padding-bottom: 32px;
-  flex-direction: column;
-  align-items: flex-start;
-  flex-wrap: wrap;
-  flex-shrink: 0;
-  gap: 32px;
-}
+
 
 .title-portfolio {
   margin-bottom: 72px;
