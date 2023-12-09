@@ -65,6 +65,7 @@ img {
   letter-spacing: 0.02em;
   padding: 24px 0;
   display: flex;
+  align-items: center;
 }
 
 .logo {
@@ -80,7 +81,6 @@ img {
   display: flex;
   margin-right: 76px;
   width: 115px;
-  margin: 24px 1169px 24px 156px;
 }
 
 .logo-span-header {
@@ -133,7 +133,10 @@ img {
     gap: 40px;
   }
 
-  .address-item{}
+  .address-item{
+    display: flex;
+    gap: 40px;
+  }
 
 .address-link{
   color: #2e2f42;
