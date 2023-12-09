@@ -58,24 +58,6 @@ img {
 }
 
 
-.logo-span-header {
-  color: #2e2f42;
-}
-
-.header-item {
-  display: flex;
-  margin: 0 auto;
-  padding: 24px 0 24px;
-  font-style: normal;
-  text-decoration: none;
-  gap: 40px;
-  margin: 24px 832px 24px 347px;
-}
-
-.header-item li {
-  margin: 40px;
-}
-
 .header-nav {
   color: #2e2f42;
   font-weight: 500;
@@ -83,34 +65,6 @@ img {
   letter-spacing: 0.02em;
   padding: 24px 0;
   display: flex;
-}
-
-.link {
-  color: #2e2f42;
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  padding: 24px 0;
-  display: flex;
-  font-size: 16px;
-}
-
-.link :hover {
-  color: #404bbf;
-}
-
-.link :active {
-  color: #404bbf;
-}
-
-.address-link{
-  color: #2e2f42;
-    font-weight: 500;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    padding: 24px 0;
-    display: flex;
-    font-size: 16px;
 }
 
 .logo {
@@ -129,25 +83,66 @@ img {
   margin: 24px 1169px 24px 156px;
 }
 
-.header-address {
-  font-style: normal;
-  display: flex;
+.logo-span-header {
+  color: #2e2f42;
 }
 
-.header-address .link {
-  color: #434455;
+.header-item {
+  display: flex;
+  margin: 0 auto;
+  padding: 24px 0 24px;
+  font-style: normal;
+  text-decoration: none;
+  gap: 40px;
+  margin: 24px 832px 24px 347px;
+}
+
+.header-item li {
+  margin: 40px;
+}
+
+.link {
+  color: #2e2f42;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  gap: 40px;
+  padding: 24px 0;
+  display: flex;
+  font-size: 16px;
 }
 
-.link:hover {
-  color: #404bbf;
-}
+  .link:hover {
+    color: #404bbf;
+  }
+  
+  .link:focus {
+    color: #404bbf;
+  }
 
-.link:focus {
-  color: #404bbf;
+  
+  .header-address {
+    font-style: normal;
+    display: flex;
+  }
+  
+  .header-address {
+    color: #434455;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    gap: 40px;
+  }
+
+  .address-item{}
+
+.address-link{
+  color: #2e2f42;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    padding: 24px 0;
+    display: flex;
+    font-size: 16px;
 }
 
 /* Main */
