@@ -286,16 +286,28 @@ background: var(--CLOUD, #F4F4FD);
 }
 
 .row-div {
-  padding: 32px 0;
+margin-bottom: 8px;
 }
 
 .main-caption {
-  text-align: center;
-  margin-bottom: 8px;
+text-align: center;
+margin-bottom: 8px;
+padding: 32px 16px 8px 16px;
+
 }
 
 .feature-text {
-  text-align: center;
+ text-align: center;
+ margin-bottom: 8px;
+padding: 32px 16px 8px 16px;
+}
+
+.list-social{
+  display: flex;
+}
+
+.social-item{
+  padding-left: 24px;
 }
 
 /* Portfolio */
@@ -331,13 +343,13 @@ background: var(--CLOUD, #F4F4FD);
 }
 
 .main-caption{
-  text-align: left;
+  
   margin: 0;
   padding: 32px 16px 8px 16px;
 }
 
 .feature-text{
-  text-align: left;
+ 
   margin: 0;
   padding: 8px 16px 32px 16px;
 }
@@ -378,5 +390,13 @@ background: var(--CLOUD, #F4F4FD);
   width: 264px;
   padding-top: 16px;
   margin: 0;
+  display: flex;
 }
 
+.footer-social{
+  display: flex;
+}
+
+.list-social{
+  
+}
