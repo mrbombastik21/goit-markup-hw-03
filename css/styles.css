@@ -10,6 +10,17 @@ body {
   margin: 0;
 }
 
+ .container {
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px 0 15px;
+}
+
+.section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
 main {
   flex-grow: 1;
 }
@@ -24,14 +35,10 @@ p {
   margin: 0 auto;
 }
 
-ul {
+ul, li {
   margin: 0;
   padding: 0;
   list-style-type: none;
-}
-
-li {
-  list-style: none;
 }
 
 img {
@@ -54,11 +61,6 @@ border: none;
   height: 72px;
 }
 
-.container {
-  width: 1158px;
-  margin: 0 auto;
-  padding: 0 15px 0 15px;
-}
 
 .header-nav {
   color: #2e2f42;
@@ -154,18 +156,27 @@ border: none;
 
 /* Main */
 .dark-bg {
-  background-color: #2e2f42;
+background-color: #2e2f42;
   padding: 188px 0;
-  width: 1158px;
-  height: 600px;
-  flex-shrink: 0;
-  display: flex;
   margin: 0 auto;
+  flex-shrink: 0;
+  text-align: center;
+  max-width: 1440px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)),
+    url(/images/ofice.jpg);
+  
 }
+
+
 
 .hero-container{
  
-    background: var(--NAVY-BLUE, #2E2F42);
+  
+    
 }
 
 .hero-title {
@@ -190,7 +201,6 @@ border: none;
   cursor: pointer;
   border-radius: 4px;
   min-width: 169px;
-  display: inline-flex;
   padding: 16px 32px;
   align-items: flex-start;
   gap: 10px;
@@ -248,9 +258,11 @@ border: none;
   letter-spacing: 0.02em;
   color: #2e2f42;
   margin-bottom: 8px;
+  text-align: left;
 }
 
 .feature-text {
+  text-align: left;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -271,6 +283,12 @@ background: var(--CLOUD, #F4F4FD);
 }
 
 .title-team {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.111em;
+    letter-spacing: 0.02em;
+    text-align: center;
+  padding-top: 72px;
   margin-bottom: 72px;
   text-align: center;
 }
@@ -289,17 +307,21 @@ background: var(--CLOUD, #F4F4FD);
 margin-bottom: 8px;
 }
 
-.main-caption {
+.main-subtitle {
 text-align: center;
 margin-bottom: 8px;
 padding: 32px 16px 8px 16px;
 
 }
 
-.feature-text {
+.desc-text {
  text-align: center;
  margin-bottom: 8px;
-padding: 32px 16px 8px 16px;
+}
+
+.social{
+  margin-top: 32px;
+margin-bottom: 32px;
 }
 
 .list-social{
@@ -321,6 +343,11 @@ padding: 32px 16px 8px 16px;
 }
 
 .title-portfolio {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.111em;
+    letter-spacing: 0.02em;
+    text-align: center;
   margin-bottom: 72px;
   text-align: center;
 }
@@ -342,13 +369,13 @@ padding: 32px 16px 8px 16px;
   border-top: none;
 }
 
-.main-caption{
+.subtitle{
   
   margin: 0;
   padding: 32px 16px 8px 16px;
 }
 
-.feature-text{
+.prtf-text{
  
   margin: 0;
   padding: 8px 16px 32px 16px;
@@ -395,8 +422,15 @@ padding: 32px 16px 8px 16px;
 
 .footer-social{
   display: flex;
+
 }
 
 .list-social{
-  
+
+}
+
+
+
+.social-link{
+  display: inline;
 }
